@@ -56,6 +56,8 @@ picom -f &
 xrandr --addmode Virtual-1 1360x768
 xrandr --output Virtual-1 --mode 1360x768
  
+serxkbmap -option
+setxkbmap -option caps:escape
+
  # For starting i3 at startup
 exec i3
-

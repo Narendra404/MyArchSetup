@@ -188,4 +188,3 @@ bar {
 exec gnome-terminal 
 exec firefox
 #for_window[class=".*"] fullscreen enable
-exec-always xmodmap ~/.Xmodmap
