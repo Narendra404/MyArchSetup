@@ -10,5 +10,8 @@ PS1='[\u@\h \W]\$ '
 export PS1="\e[0;34;1m[\u\e[m@\e[0;32;1m\h\e[m \W]\$"
 export LD_LIBRARY_PATH=/usr/local/lib
 
-#My custom aliases
+# My custom aliases
 alias la='ls --color=auto -lah'
+
+# For tmuxp to work
+export PATH=$PATH:$HOME/.local/bin
