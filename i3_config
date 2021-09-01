@@ -187,4 +187,4 @@ bar {
 
 exec gnome-terminal 
 exec firefox
-#for_window[class=".*"] fullscreen enable
+for_window[class=".*"] fullscreen enable
