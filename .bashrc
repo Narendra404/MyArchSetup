@@ -12,6 +12,7 @@ export LD_LIBRARY_PATH=/usr/local/lib
 
 # My custom aliases
 alias la='ls --color=auto -lah'
+alias luc='tmuxp load letusc'
 
 # For tmuxp to work
 export PATH=$PATH:$HOME/.local/bin
