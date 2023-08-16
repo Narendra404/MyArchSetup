@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+
+FIRSTARG=$1
+
+if [[ $1 == 'clean' ]]; then
+
+    rm $2.java
+    rm $2.class
+
+elif [[ $1 == 'cleanall' ]]; then
+    rm -rf *.class
+
+elif [[ $1 == 'exec' ]]; then
+
+    javac $2.java
+    java $2
+
+else
+    touch $1.java
+    cat ~/MyTemplates/Java_Template.java >> $1.java
+    sed -i "s/<ClassName>/${FIRSTARG}/g" $1.java
+fi

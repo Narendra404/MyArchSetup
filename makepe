@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+if [[ $1 == 'clean' ]]; then
+
+    find . -type f -executable -delete
+    
+else
+    mkdir $1
+    cd $1
+    touch $1.c
+    cat ~/MyTemplates/C_Template.c >> $1.c
+fi

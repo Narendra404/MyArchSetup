@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+
+echo "Cpp-exercism script is starting!"
+echo "This script is meant be run only in '~/exercism/cpp/some_exercism_exercise/' for executing Cmake."
+echo "Are you in '~/exercism/cpp/some_exercism_exercise/' ? (y/n): "
+
+read answer
+
+if [ $answer == 'y' ]
+then 
+    echo "Creating a directory named 'build'..."
+    mkdir build
+    echo "Changing to directory 'build'..."
+    cd build
+    echo "Running Cmake..."
+    cmake -G "Unix Makefiles" ..
+    echo "Running make..."
+    make 
+
+else 
+    echo "Not in '~/exercism/cpp/some_exercism_exercise/' so terminating the script."
+fi
