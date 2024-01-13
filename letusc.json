@@ -1,0 +1,33 @@
+{
+  "windows": [
+    {
+      "panes": [
+        {
+          "shell_command": ["ranger"],
+          "focus": true
+        }
+      ],
+      "shell_command_before": [
+        "cd ~/CodeShare/College_shared_code/LetUsC/chapter10/",
+        "clear"
+      ],
+      "layout": "tiled",
+      "window_name": "Editor"
+    },
+
+    {
+      "panes": [
+        {
+          "focus": true
+        }
+      ],
+      "shell_command_before": [
+        "cd ~/CodeShare/College_shared_code/LetUsC/chapter10/",
+        "clear"
+      ],
+      "layout": "tiled",
+      "window_name": "Terminal"
+    }
+  ],
+  "session_name": "LetUsC"
+}

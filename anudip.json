@@ -1,0 +1,25 @@
+{
+  "windows": [
+    {
+      "panes": [
+        {
+          "shell_command": ["ranger"]
+        }
+      ],
+      "shell_command_before": ["cd ~/Java_Programs/Anudip/JavaCore", "clear"],
+      "layout": "tiled",
+      "window_name": "Editor"
+    },
+    {
+      "panes": [
+        {
+          "shell_command": ["cd ~/Java_Programs/Anudip/JavaCore", "clear"],
+          "focus": true
+        }
+      ],
+      "layout": "tiled",
+      "window_name": "Terminal"
+    }
+  ],
+  "session_name": "Anudip"
+}

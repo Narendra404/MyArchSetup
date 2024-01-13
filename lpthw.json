@@ -1,0 +1,34 @@
+{
+  "windows": [
+    {
+      "panes": [
+        {
+          "shell_command": ["ranger"],
+          "focus": true
+        }
+      ],
+      "shell_command_before": [
+        "cd ~/PyPrograms/LearnPythonTheHardWay",
+        "clear"
+      ],
+      "layout": "tiled",
+      "window_name": "Editor"
+    },
+
+    {
+      "panes": [
+        {
+          "shell_command": ["cd ~/PyPrograms/LearnPythonTheHardWay", "clear"]
+        }
+      ],
+      "shell_command_before": [
+        "cd ~/Downloads/LearnItTheHardWay",
+        "zathura LearnPython3TheHardWay.pdf & disown",
+        "cd "
+      ],
+      "layout": "tiled",
+      "window_name": "Terminal"
+    }
+  ],
+  "session_name": "lpthw"
+}
